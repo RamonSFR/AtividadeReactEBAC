@@ -1,7 +1,11 @@
 .header {
-    margin: 5vh 0;
+    margin-top: 128px;
+}
+
+.title {
+    font-size: 32pt;
 }
 
 .header>h1>span {
-    color: orange;
+    color: var(--secondaryColor);
 }
