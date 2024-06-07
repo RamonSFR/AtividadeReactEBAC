@@ -1,0 +1,7 @@
+.header {
+    margin: 5vh 0;
+}
+
+.header>h1>span {
+    color: orange;
+}
