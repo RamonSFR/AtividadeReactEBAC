@@ -43,14 +43,14 @@ function Form() {
     const renderizaResultado = () => {
         if (peso && altura) {
             return (
-                <div className={styles.resultado}>
+                <div id='resultado' className={styles.resultado}>
                     <p>{nome}, seu IMC é de: <span>{imc}</span></p>
                     <p>Você está <span>{estado}</span></p>
                 </div>
             );
         } else {
             return (
-                <div className={styles.resultado}>
+                <div id='resultado' className={styles.resultado}>
                     <p>Preencha o formulário corretamente!</p>
                 </div>
             );
@@ -90,13 +90,7 @@ function Form() {
                     />
                 </div>
 
-                <button
-                    onClick={handleCalcularClick}
-                    className={styles.button}
-                    type="button"
-                >
-                    Calcular
-                </button>
+                <a href='#resultado' onClick={handleCalcularClick} className={styles.button} type="button">Calcular</a>
             </form>
 
             {imc && renderizaResultado()}

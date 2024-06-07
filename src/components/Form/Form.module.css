@@ -31,9 +31,29 @@
     padding: 0 8px;
     font-weight: 600;
     font-size: 1.25em;
+    text-decoration: none;
+    text-align: center;
 }
 
 .resultado {
     font-size: 2em;
     margin-top: 60px;
+}
+
+@media screen and (max-width: 768px) {
+    .form {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding: 0 16px;
+    }
+
+    .button {
+        width: 100%;
+    }
+
+    .resultado {
+        font-size: 1.25em;
+        padding: 0 16px;
+    }
 }
