@@ -1,8 +1,48 @@
-# React + Vite
+# Calculadora IMC com React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
-Currently, two official plugins are available:
+## Descrição
+Este projeto é um calculadora de IMC feito com React como ativiade para curso Engenheiro Front-End da EBAC (Escola Britânica de Artes Criativas e Tecnologia)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Guia de Instalação
+Abra o seu prompt de comando e clone o repositório para o diretório desejado
+
+### Pré requisitos:
+
+<ul>
+    <li>Node</li>
+    <li>Git</li>
+</ul>
+
+### Etapas:
+
+```bash
+git clone https://github.com/RamonSFR/Calculadora_IMC_React
+```
+
+Depois acesse a pasta do projeto
+
+```bash
+cd .\Calculadora_IMC_React\
+```
+
+Agora instale as dependêcias do projeto com
+
+```bash
+npm install
+```
+Agora rode a aplicação
+
+```bash
+npm run dev
+```
+```bash
+npm run build
+```
+
+## Guia de Uso
+
+1. Abra o localhost na porta fornecida
+2. Digite seu Nome, altura e peso
+3. Receba o seu IMC e interpretação do mesmo
